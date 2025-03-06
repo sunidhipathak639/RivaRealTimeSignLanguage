@@ -1,13 +1,13 @@
 const Page = () => {
   return (
-    <div style={{ marginTop: '2em' }}>
+    <div style={{ marginTop: "2em" }}>
       <div className="jumbotron text-center">
-        <h1>Signify - ASL Translator</h1>
+        <h1>RIVASIGNify - ASL Translator</h1>
         <h4>
-          Signify uses machine learning to transform webcam input into readable
-          sign language using a variety of different techniques. The series of
-          texts below detail the steps taken for signify to translate an image
-          into a final word.
+          RIVASIGNify uses machine learning to transform webcam input into
+          readable sign language using a variety of different techniques. The
+          series of texts below detail the steps taken for RIVASIGNify to
+          translate an image into a final word.
         </h4>
       </div>
       <div className="bg-secondary jumbotron">
@@ -17,7 +17,7 @@ const Page = () => {
             src="opencv.png"
             alt="OpenCV Pipeline Demo"
             className="img-responsive col-xs-12 col-md-6"
-            style={{ height: '100%' }}
+            style={{ height: "100%" }}
           />
           <div className="col-xs-12 col-md-6">
             <p>
@@ -49,7 +49,7 @@ const Page = () => {
             src="model-architecture.png"
             alt="OpenCV Pipeline Demo"
             className="img-responsive col-xs-12 col-md-6"
-            style={{ height: '100%' }}
+            style={{ height: "100%" }}
           />
           <div className="col-xs-12 col-md-6">
             <p>
@@ -71,7 +71,7 @@ const Page = () => {
             src="interpretation.png"
             alt="OpenCV Pipeline Demo"
             className="img-responsive col-xs-12 col-md-6"
-            style={{ height: '100%' }}
+            style={{ height: "100%" }}
           />
           <div className="col-xs-12 col-md-6">
             <p>
@@ -99,7 +99,7 @@ const Page = () => {
             src="tts.jpeg"
             alt="OpenCV Pipeline Demo"
             className="img-responsive col-xs-12 col-md-6"
-            style={{ height: '100%' }}
+            style={{ height: "100%" }}
           />
           <div className="col-xs-12 col-md-6">
             <p>
